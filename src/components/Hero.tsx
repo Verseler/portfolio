@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 
 export function HeroMessage({ children }: PropsWithChildren) {
   return (
-    <p className="mt-10 space-y-1 text-4xl font-normal xl:space-y-5 xl:text-5xl">
+    <p className="mt-10 space-y-1 text-4xl font-normal md:mt-20 xl:space-y-5 xl:text-5xl">
       {children}
     </p>
   );

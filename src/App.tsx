@@ -22,12 +22,12 @@ export default function App() {
           <div className="flex-1 max-w-xl">
             <HeroMessage>
               Hello I'am <Bold extra>Verseler kerr. </Bold>
-              Aspiring <Bold extra>Frontend</Bold> <span>Developer</span>
+              Aspiring <Bold extra>Web Developer</Bold>
             </HeroMessage>
             <HeroDescription>
-              I'm passionate about building responsive and user-friendly
-              interfaces with React while continuously improving my skills. I am
-              eager to learn, grow as a developer, and contribute to meaningful
+              I'm passionate about learning and building responsive web
+              application while continuously improving my skills. I am eager to
+              learn, grow as a developer, and contribute to meaningful
               projects."
             </HeroDescription>
             <SocialButtons socials={data.socialMedia} />
@@ -55,9 +55,9 @@ export default function App() {
             </H1>
             <P dark>
               I am Verseler Kerr Flores Handuman, a graduating IT student with a
-              passion for front-end development. I specialize in React and have
-              been exploring ways to build clean, responsive, and user-friendly
-              interfaces. My portfolio reflects my journey of learning and
+              passion for web development. I specialize in React and have been
+              exploring ways to build clean, responsive, and user-friendly web
+              applications. My portfolio reflects my journey of learning and
               creating, showcasing projects that highlight my growing skills and
               dedication to improve as a developer.
             </P>
