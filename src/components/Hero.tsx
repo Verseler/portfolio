@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
-export function HeroMessage({ children }: PropsWithChildren) {
+export function HeroHeadline({ children }: PropsWithChildren) {
   return (
     <p className="mt-10 space-y-1 text-4xl font-normal md:mt-20 xl:space-y-5 xl:text-5xl">
       {children}
@@ -8,7 +8,7 @@ export function HeroMessage({ children }: PropsWithChildren) {
   );
 }
 
-export function HeroDescription({ children }: PropsWithChildren) {
+export function HeroSubHeadline({ children }: PropsWithChildren) {
   return (
     <p className="mt-3 text-base font-normal xl:text-lg xl:mt-8 text-neutral-600">
       {children}

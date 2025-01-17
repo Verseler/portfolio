@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Container from "@/components/ui/Container";
-import { HeroDescription, HeroImage, HeroMessage } from "@/components/Hero";
+import { HeroSubHeadline, HeroImage, HeroHeadline } from "@/components/Hero";
 import { Bold, H1, P } from "@/components/Typography";
 import Section from "@/components/Section";
 import ProfilePic1 from "@/assets/images/profile-pic-1.png";
@@ -20,16 +20,16 @@ export default function App() {
         <Container className="md:flex gap-x-24 md:flex-row-reverse">
           <HeroImage src={ProfilePic1} />
           <div className="flex-1 max-w-xl">
-            <HeroMessage>
+            <HeroHeadline>
               Hello I'am <Bold extra>Verseler kerr. </Bold>
               Aspiring <Bold extra>Web Developer</Bold>
-            </HeroMessage>
-            <HeroDescription>
+            </HeroHeadline>
+            <HeroSubHeadline>
               I'm passionate about learning and building responsive web
               application while continuously improving my skills. I am eager to
               learn, grow as a developer, and contribute to meaningful
               projects."
-            </HeroDescription>
+            </HeroSubHeadline>
             <SocialButtons socials={data.socialMedia} />
           </div>
         </Container>
