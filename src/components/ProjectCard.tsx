@@ -44,7 +44,7 @@ export default function ProjectCard({
       )}
     >
       <div className="flex-1">
-        <div className="mx-auto rounded-2xl border-2 border-black overflow-hidden h-52 md:h-72 2xl:h-96 aspect-[4/2.5]">
+        <div className="mx-auto rounded-2xl border-2 border-black overflow-hidden h-52 lg:h-72 2xl:h-96 aspect-[4/2.5]">
           <img
             src={coverImage ?? ""}
             alt="project cover image"
@@ -68,20 +68,20 @@ export default function ProjectCard({
                 </Badge>
               ))}
           </div>
-          <div className="space-x-2">
+          <div className="space-x-2 space-y-2">
             {demoLink && (
               <Button
                 onClick={() => openInNewTab(demoLink)}
                 className="bg-green-600 hover:bg-green-700"
               >
                 <IoOpenOutline />
-                Demo
+                <span className="md:hidden lg:inline">Demo</span>
               </Button>
             )}
             {githubLink && (
               <Button onClick={() => openInNewTab(githubLink)}>
                 <FaGithub />
-                Github
+                <span className="md:hidden lg:inline">Github</span>
               </Button>
             )}
             {exampleImages && (
@@ -90,7 +90,7 @@ export default function ProjectCard({
                 className="bg-orange-600 hover:bg-orange-700"
               >
                 <FaRegImages />
-                Examples
+                <span className="md:hidden lg:inline">Examples</span>
               </Button>
             )}
           </div>
