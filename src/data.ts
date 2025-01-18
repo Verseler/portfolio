@@ -20,7 +20,7 @@ import ThistaskCoverImg from "@/assets/images/thistask-cover.png";
 import Thistask1 from "@/assets/images/thistask1.png";
 import Thistask2 from "@/assets/images/thistask2.png";
 import Thistask3 from "@/assets/images/thistask3.png";
-import CBCRAISCoverImg from "@/assets/images/cbc-raise-cover.png";
+import CBCRAISCoverImg from "@/assets/images/cbc-rais-cover.jpg";
 import MovierecomCoverImg from "@/assets/images/movierecom-cover.png";
 import Movierecom1 from "@/assets/images/movierecom-1.png";
 import Movierecom2 from "@/assets/images/movierecom-2.png";
