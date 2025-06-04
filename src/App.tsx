@@ -55,22 +55,22 @@ export default function App() {
             </H1>
             <P dark>
               I am Verseler Kerr Flores Handuman, a graduating IT student with a
-              passion for web development. I specialize in React and have been
-              exploring ways to build clean, responsive, and user-friendly web
-              applications. My portfolio reflects my journey of learning and
-              creating, showcasing projects that highlight my growing skills and
-              dedication to improve as a developer.
+              passion for web development. I specialize in React/Laravel and
+              have been exploring ways to build clean, responsive, and
+              user-friendly web applications. My portfolio reflects my journey
+              of learning and creating, showcasing projects that highlight my
+              growing skills and dedication to improve as a developer.
             </P>
             <P dark>
-              When I'm not coding, I enjoy playing card games such as legend of
-              runeterra and hearstone. I also love reading manhwa and manga, as
-              well as watching anime and films.
+              When I'm not coding, I also enjoy reading manhwa and manga, as
+              well as watching anime and films. I also love playing card games
+              such as legend of runeterra and hearstone.
             </P>
             <P dark>
               My goal is to continue learning, grow as a developer, and
-              contribute to meaningful projects. I'm currently seeking an
-              internship opportunity where I can learn, improve my skills, gain
-              hands-on experience, and collaborate with a team.
+              contribute to meaningful projects. I'm currently seeking
+              opportunities where I can learn, improve my skills, gain hands-on
+              experience, and collaborate with a team.
             </P>
           </div>
         </Container>
