@@ -35,6 +35,24 @@ import Sipiar5 from "@/assets/images/sipiar-5.png";
 import Sipiar6 from "@/assets/images/sipiar-6.png";
 import Sipiar7 from "@/assets/images/sipiar-7.png";
 import Sipiar8 from "@/assets/images/sipiar-8.png";
+import OHRS1 from "@/assets/images/ohrs/ohrs-1.png";
+import OHRS2 from "@/assets/images/ohrs/ohrs-2.png";
+import OHRS3 from "@/assets/images/ohrs/ohrs-3.png";
+import OHRS4 from "@/assets/images/ohrs/ohrs-4.png";
+import OHRS5 from "@/assets/images/ohrs/ohrs-5.png";
+import OHRS6 from "@/assets/images/ohrs/ohrs-6.png";
+import OHRS7 from "@/assets/images/ohrs/ohrs-7.png";
+import OHRS8 from "@/assets/images/ohrs/ohrs-8.png";
+import OHRS9 from "@/assets/images/ohrs/ohrs-9.png";
+import OHRS10 from "@/assets/images/ohrs/ohrs-10.png";
+import OHRS11 from "@/assets/images/ohrs/ohrs-11.png";
+import OHRS12 from "@/assets/images/ohrs/ohrs-12.png";
+import OHRS13 from "@/assets/images/ohrs/ohrs-13.png";
+import OHRS14 from "@/assets/images/ohrs/ohrs-14.png";
+import OHRS15 from "@/assets/images/ohrs/ohrs-15.png";
+import OHRS16 from "@/assets/images/ohrs/ohrs-16.png";
+import OHRSCover from "@/assets/images/ohrs/ohrs-cover.jpg";
+
 import { Project, Skill, Social } from "@/types";
 
 type TData = {
@@ -65,8 +83,45 @@ export const data: TData = {
     { Icon: BiLogoRedux, label: "Redux" },
   ],
   projects: [
+     {
+      id: 6,
+      coverImage: OHRSCover,
+      title:
+        "OHRS: Online Hostel Reservation System",
+      type: "Internship Project",
+      date: "February 2025 - May 2025",
+      description:
+        "- - - - -",
+      technologies: [
+        "Laravel",
+        "InertiaJS",
+        "VueJS",
+        "Typescript",
+        "TailwindCSS",
+      ],
+      demoLink: null,
+      githubLink: null,
+      exampleImages: [
+       OHRS1,
+        OHRS2,
+        OHRS3,
+        OHRS4,
+        OHRS5,
+        OHRS6,
+        OHRS7,
+        OHRS8,
+        OHRS9,
+        OHRS10,
+        OHRS11,
+        OHRS12,
+        OHRS13,
+        OHRS14,
+        OHRS15,
+        OHRS16,
+      ],
+    },
     {
-      id: 1,
+      id: 5,
       coverImage: SipiarCoverImg,
       title:
         "SIPIAR: Smartphone-Based Life Saving First Aid Application with Integrated Emergency Notification",
@@ -95,7 +150,7 @@ export const data: TData = {
       ],
     },
     {
-      id: 2,
+      id: 4,
       coverImage: MovierecomCoverImg,
       title: "Movierecom",
       type: "Personal Project",
@@ -133,7 +188,7 @@ export const data: TData = {
       exampleImages: [Thistask2, Thistask1, Thistask3],
     },
     {
-      id: 4,
+      id: 2,
       coverImage: CBCRAISCoverImg,
       title: "Cedula Barangay Certificate - Request and Issue System (CBC-RAIS)",
       type: "Commission Project",
@@ -151,7 +206,7 @@ export const data: TData = {
       exampleImages: null,
     },
     {
-      id: 5,
+      id: 1,
       coverImage: MastermindCoverImg,
       title: "Mastermind",
       type: "Personal Project",

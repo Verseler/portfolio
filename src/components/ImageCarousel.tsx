@@ -68,10 +68,10 @@ export default function ImageCarousel({ images }: ImageCarouselProps) {
             {images &&
               images?.length > 0 &&
               images?.map((image, index) => (
-                <CarouselItem key={index} className="overflow-hidden">
+                <CarouselItem key={index} className="flex items-center justify-center overflow-hidden">
                   <img
                     key={index}
-                    className="object-cover size-full"
+                    className="object-contain border rounded shadow-sm border-neutral-100"
                     src={image}
                     alt="project image"
                   />
