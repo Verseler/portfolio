@@ -14,7 +14,8 @@ import {
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";
-import { BiLogoTypescript, BiLogoRedux } from "react-icons/bi";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiInertia, SiLaravel } from "react-icons/si";
 
 import ThistaskCoverImg from "@/assets/images/thistask-cover.png";
 import Thistask1 from "@/assets/images/thistask1.png";
@@ -71,16 +72,16 @@ export const data: TData = {
   skills: [
     { Icon: FaReact, label: "ReactJS" },
     { Icon: RiTailwindCssFill, label: "TailwindCSS" },
-    { Icon: RiJavascriptFill, label: "Javascript" },
+    { Icon: SiLaravel, label: "Laravel" },
+    { Icon: SiInertia, label: "InertiaJS" },
     { Icon: BiLogoTypescript, label: "Typescript" },
+    { Icon: RiJavascriptFill, label: "Javascript" },
     { Icon: FaHtml5, label: "HTML5" },
     { Icon: FaCss3, label: "CSS3" },
     { Icon: RiBearSmileFill, label: "Zustand" },
     { Icon: FaReact, label: "React Native" },
     { Icon: FaGitAlt, label: "Git" },
-    { Icon: FaGithub, label: "Github" },
     { Icon: RiSupabaseFill, label: "Supabase" },
-    { Icon: BiLogoRedux, label: "Redux" },
   ],
   projects: [
      {
