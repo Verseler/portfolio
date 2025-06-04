@@ -92,11 +92,11 @@ export const data: TData = {
       type: "Internship Project",
       date: "February 2025 - May 2025",
       description:
-        "- - - - -",
+        "Developed a full-stack hostel reservation system during my internship at the Department of Environment and Natural Resources (DENR - Region 10) to replace the manual, phone-based booking process for three hostels. The system supports multiple user roles and multiple hostels, streamlining reservation management and improving operational efficiency. I was responsible for both back-end and front-end development, actively adjusting the system as requirements changed over time. This project strengthened my skills in full-stack development and taught me how to handle real-world client changes in a professional work setting.",
       technologies: [
         "Laravel",
-        "InertiaJS",
         "VueJS",
+        "InertiaJS",
         "Typescript",
         "TailwindCSS",
       ],
