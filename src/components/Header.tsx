@@ -25,9 +25,11 @@ export default function Header() {
           rel="noopener noreferrer"
           download
         >
-          <Button>
-            Resume
-            <Download />
+          <Button asChild>
+            <a href="https://docs.google.com/document/d/1Hdn8jtStaC7C80O1m3uPQfdOnEofA1d_VZ-I9ZUl8Qo/export?format=pdf">
+              Resume
+              <Download />
+            </a>
           </Button>
         </a>
       </Container>
