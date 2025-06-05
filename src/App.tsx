@@ -89,7 +89,7 @@ export default function App() {
         <Container className="flex flex-col items-center justify-between py-4 text-center md:py-10 md:flex-row">
           <AppLogo size="lg" />
           <div className="md:text-end">
-            <p>(+63)-905-960-9327</p>
+            <p>(+63)-952-485-6149</p>
             <p>handuman.verselerkerr@gmail.com</p>
           </div>
         </Container>
