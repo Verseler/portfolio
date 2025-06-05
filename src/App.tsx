@@ -62,9 +62,9 @@ export default function App() {
               growing skills and dedication to improve as a developer.
             </P>
             <P dark>
-              When I'm not coding, I also enjoy reading manhwa and manga, as
-              well as watching anime and films. I also love playing card games
-              such as legend of runeterra and hearstone.
+              When I'm not coding, I enjoy reading manhwa and manga, as well as
+              watching anime and films. I also love playing card games such as
+              Legends of Runeterra and Hearthstone.
             </P>
             <P dark>
               My goal is to continue learning, grow as a developer, and
