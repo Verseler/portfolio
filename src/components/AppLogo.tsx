@@ -5,7 +5,7 @@ type AppLogoProps = {
 };
 
 export default function AppLogo({ size = "sm" }: AppLogoProps) {
-  const sizeStyle = size === "sm" ? "size-7" : "size-10";
+  const sizeStyle = size === "sm" ? "size-7" : "size-10 border-2 rounded-full";
 
   return (
     <div className="flex items-center gap-x-2">
