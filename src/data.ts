@@ -16,11 +16,6 @@ import {
 } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiInertia, SiLaravel } from "react-icons/si";
-
-import ThistaskCoverImg from "@/assets/images/thistask-cover.png";
-import Thistask1 from "@/assets/images/thistask1.png";
-import Thistask2 from "@/assets/images/thistask2.png";
-import Thistask3 from "@/assets/images/thistask3.png";
 import CBCRAISCoverImg from "@/assets/images/cbc-rais-cover.jpg";
 import MovierecomCoverImg from "@/assets/images/movierecom-cover.png";
 import Movierecom1 from "@/assets/images/movierecom-1.png";
@@ -53,6 +48,8 @@ import OHRS14 from "@/assets/images/ohrs/ohrs-14.png";
 import OHRS15 from "@/assets/images/ohrs/ohrs-15.png";
 import OHRS16 from "@/assets/images/ohrs/ohrs-16.png";
 import OHRSCover from "@/assets/images/ohrs/ohrs-cover.jpg";
+import TermSimplified1 from "@/assets/images/term-simplified/term-simplified-1.png";
+import TermSimplified2 from "@/assets/images/term-simplified/term-simplified-2.png";
 
 import { Project, Skill, Social } from "@/types";
 
@@ -152,6 +149,23 @@ export const data: TData = {
     },
     {
       id: 4,
+      coverImage: TermSimplified1,
+      title: "Term Simplified",
+      type: "Personal Project",
+      date: "June 2025",
+      description: "Terms-Simplified takes those long, confusing terms and conditions and makes them easy to understand. It pinpoints the critical information you need to know, so you're always aware of what you're agreeing to.",
+      technologies: [
+        "ReactJS",
+        "Typescript",
+        "TailwindCSS",
+        "Gemini API",
+      ],
+      demoLink: "https://terms-simplified.vercel.app",
+      githubLink: "https://github.com/Verseler/terms-simplified",
+      exampleImages: [TermSimplified1, TermSimplified2],
+    },
+    {
+      id: 3,
       coverImage: MovierecomCoverImg,
       title: "Movierecom",
       type: "Personal Project",
@@ -169,24 +183,6 @@ export const data: TData = {
       demoLink: "https://movierecom.vercel.app/",
       githubLink: "https://github.com/Verseler/movierecom",
       exampleImages: [Movierecom3, Movierecom1, Movierecom2],
-    },
-    {
-      id: 3,
-      coverImage: ThistaskCoverImg,
-      title: "Thistask",
-      type: "Personal Project",
-      date: "August 2024 - November 2024",
-      description: "Developed a to-do list application for task management. This was my first full-stack application, giving me valuable insight into how full-stack applications work.",
-      technologies: [
-        "ReactJS",
-        "Typescript",
-        "TailwindCSS",
-        "Zustand",
-        "Supabase",
-      ],
-      demoLink: "https://thistask.vercel.app/login",
-      githubLink: "https://github.com/Verseler/thistask",
-      exampleImages: [Thistask2, Thistask1, Thistask3],
     },
     {
       id: 2,
