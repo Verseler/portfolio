@@ -19,7 +19,7 @@ export default function App() {
       <Section id="hero" className="py-14 2xl:py-40">
         <Container className="md:flex gap-x-24 md:flex-row-reverse">
           <HeroImage src={ProfilePic1} />
-          <div className="flex-1 max-w-xl">
+          <div className="flex-1 max-w-xl text-center md:text-start">
             <HeroHeadline>
               Hello I'am <Bold extra>Verseler kerr. </Bold>
               Aspiring <Bold extra>Web Developer</Bold>
