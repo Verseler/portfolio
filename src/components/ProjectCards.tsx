@@ -21,7 +21,7 @@ export default function ProjectsCards({ projects }: ProjectCardsProps) {
         return <ProjectCard key={project.id} reverse={isEven} {...project} />;
       })}
 
-      {<ImageCarousel images={exampleImages} />}
+      <ImageCarousel images={exampleImages} />
     </div>
   );
 }

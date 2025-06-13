@@ -23,6 +23,7 @@ export default function ProjectCard({
   title,
   type,
   coverImage,
+  date,
   reverse = false,
 }: ProjectCardProps) {
   const [_, setSearchParams] = useSearchParams();
@@ -54,6 +55,7 @@ export default function ProjectCard({
       </div>
       <div className="flex-1 text-start">
         <p className="text-base 2xl:text-xl text-neutral-600">{type}</p>
+        <span className="text-base text-neutral-500">{date}</span>
         <div>
           <H2>{title}</H2>
           <P>{description}</P>
