@@ -9,22 +9,23 @@ type SocialButtonsProps = {
 
 export default function SocialButtons({ socials }: SocialButtonsProps) {
   return (
-    <button className="flex justify-center md:justify-start space-x-5 md:space-x-3.5 mt-10 md:mt-24">
+    <div className="flex justify-center md:justify-start space-x-5 md:space-x-3.5 mt-10 md:mt-24">
       {socials.map((social) => (
-        <SocialButton url={social.url} key={social.id}>
+        <SocialButton name={social.name} url={social.url} key={social.id}>
           <social.Icon />
         </SocialButton>
       ))}
-    </button>
+    </div>
   );
 }
 
 type SocialMedialProps = {
   children: React.ReactNode;
   url: string;
+  name: string;
 };
 
-function SocialButton({ children, url }: SocialMedialProps) {
+function SocialButton({ children, url, name }: SocialMedialProps) {
   const openInNewTab = (url: string) => {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");
     if (newWindow) newWindow.opener = null;
@@ -36,6 +37,7 @@ function SocialButton({ children, url }: SocialMedialProps) {
       size="icon"
       variant="outline"
       className="transition-colors duration-150 hover:text-white hover:bg-black"
+      aria-label={name}
     >
       {children}
     </Button>

@@ -6,13 +6,13 @@ import {
 } from "react-icons/ri";
 import {
   FaGitAlt,
-  FaGithub,
   FaReact,
   FaHtml5,
   FaCss3,
   FaFacebook,
   FaInstagram,
   FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiInertia, SiLaravel } from "react-icons/si";

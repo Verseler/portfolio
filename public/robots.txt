@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://verseler-portfolio.vercel.app

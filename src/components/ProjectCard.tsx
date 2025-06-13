@@ -50,7 +50,6 @@ export default function ProjectCard({
             src={coverImage ?? ""}
             alt="project cover image"
             className="object-cover size-full"
-            loading="lazy"
           />
         </div>
       </div>
