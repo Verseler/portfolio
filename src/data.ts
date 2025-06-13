@@ -81,12 +81,29 @@ export const data: TData = {
     { Icon: RiSupabaseFill, label: "Supabase" },
   ],
   projects: [
-     {
+    {
       id: 6,
+      coverImage: TermSimplified1,
+      title: "Terms-Simplified",
+      type: "Personal Project",
+      date: "June 2025",
+      description: "Terms-Simplified takes those long, confusing terms and conditions and makes them easy to understand. It pinpoints the critical information you need to know, so you're always aware of what you're agreeing to.",
+      technologies: [
+        "ReactJS",
+        "Typescript",
+        "TailwindCSS",
+        "Gemini API",
+      ],
+      demoLink: "https://terms-simplified.vercel.app",
+      githubLink: "https://github.com/Verseler/terms-simplified",
+      exampleImages: [TermSimplified1, TermSimplified2],
+    },
+    {
+      id: 5,
       coverImage: OHRSCover,
       title:
         "OHRS: Online Hostel Reservation System",
-      type: "Internship Project",
+      type: "OJT Project",
       date: "February 2025 - May 2025",
       description:
         "Developed a full-stack hostel reservation system during my internship at the Department of Environment and Natural Resources (DENR - Region 10) to replace the manual, phone-based booking process for three hostels. The system supports multiple user roles and multiple hostels, streamlining reservation management and improving operational efficiency. I was responsible for both back-end and front-end development, actively adjusting the system as requirements changed over time. This project strengthened my skills in full-stack development and taught me how to handle real-world client changes in a professional work setting.",
@@ -119,7 +136,7 @@ export const data: TData = {
       ],
     },
     {
-      id: 5,
+      id: 4,
       coverImage: SipiarCoverImg,
       title:
         "SIPIAR: Smartphone-Based Life Saving First Aid Application with Integrated Emergency Notification",
@@ -146,23 +163,6 @@ export const data: TData = {
         Sipiar7,
         Sipiar8,
       ],
-    },
-    {
-      id: 4,
-      coverImage: TermSimplified1,
-      title: "Term Simplified",
-      type: "Personal Project",
-      date: "June 2025",
-      description: "Terms-Simplified takes those long, confusing terms and conditions and makes them easy to understand. It pinpoints the critical information you need to know, so you're always aware of what you're agreeing to.",
-      technologies: [
-        "ReactJS",
-        "Typescript",
-        "TailwindCSS",
-        "Gemini API",
-      ],
-      demoLink: "https://terms-simplified.vercel.app",
-      githubLink: "https://github.com/Verseler/terms-simplified",
-      exampleImages: [TermSimplified1, TermSimplified2],
     },
     {
       id: 3,
