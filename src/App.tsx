@@ -27,8 +27,7 @@ export default function App() {
             <HeroSubHeadline>
               I'm passionate about learning and building responsive web
               application while continuously improving my skills. I am eager to
-              learn, grow as a developer, and contribute to meaningful
-              projects."
+              learn, grow as a developer, and contribute to meaningful projects.
             </HeroSubHeadline>
             <SocialButtons socials={data.socialMedia} />
           </div>
