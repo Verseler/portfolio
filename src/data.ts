@@ -17,14 +17,14 @@ import {
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiInertia, SiLaravel } from "react-icons/si";
 import CBCRAISCoverImg from "@/assets/images/cbc-rais-cover.jpg";
-import MovierecomCoverImg from "@/assets/images/movierecom-cover.png";
-import Movierecom1 from "@/assets/images/movierecom-1.png";
-import Movierecom2 from "@/assets/images/movierecom-2.png";
-import Movierecom3 from "@/assets/images/movierecom-3.png";
+import MovierecomCoverImg from "@/assets/images/movierecom-cover.webp";
+import Movierecom1 from "@/assets/images/movierecom-1.webp";
+import Movierecom2 from "@/assets/images/movierecom-2.webp";
+import Movierecom3 from "@/assets/images/movierecom-3.webp";
 import MastermindCoverImg from "@/assets/images/mastermin-cover.png";
-import SipiarCoverImg from "@/assets/images/sipiar-cover.png";
+import SipiarCoverImg from "@/assets/images/sipiar-cover.webp";
 import Sipiar1 from "@/assets/images/sipiar-1.png";
-import Sipiar2 from "@/assets/images/sipiar-2.png";
+import Sipiar2 from "@/assets/images/sipiar-2.webp";
 import Sipiar3 from "@/assets/images/sipiar-3.png";
 import Sipiar4 from "@/assets/images/sipiar-4.png";
 import Sipiar5 from "@/assets/images/sipiar-5.png";
@@ -61,10 +61,10 @@ type TData = {
 
 export const data: TData = {
   socialMedia: [
-    { id: 1, Icon: FaGithub, url: "https://github.com/Verseler" },
-    { id: 2, Icon: FaFacebook, url: "https://www.facebook.com/Verselerkerr" },
-    { id: 3, Icon: FaInstagram, url: "https://www.instagram.com/_kerooo/" },
-    { id: 4, Icon: FaLinkedin, url: "https://www.linkedin.com/in/verseler-kerr-handuman-989b83294" },
+    { id: 1, Icon: FaGithub, url: "https://github.com/Verseler", name: "github" },
+    { id: 2, Icon: FaFacebook, url: "https://www.facebook.com/Verselerkerr", name: "facebook" },
+    { id: 3, Icon: FaInstagram, url: "https://www.instagram.com/_kerooo/", name: "instagram" },
+    { id: 4, Icon: FaLinkedin, url: "https://www.linkedin.com/in/verseler-kerr-handuman-989b83294", name: "linkedin" },
   ],
   skills: [
     { Icon: FaReact, label: "ReactJS" },

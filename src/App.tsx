@@ -1,15 +1,15 @@
+import { lazy } from "react";
 import Header from "@/components/Header";
 import Container from "@/components/ui/Container";
 import { HeroSubHeadline, HeroImage, HeroHeadline } from "@/components/Hero";
 import { Bold, H1, P } from "@/components/Typography";
 import Section from "@/components/Section";
-import ProfilePic1 from "@/assets/images/profile-pic-1.png";
-import ProfilePic2 from "@/assets/images/profile-pic-2.png";
-import Projects from "@/components/ProjectCards";
+import ProfilePic2 from "@/assets/images/profile-pic-2.webp";
 import AppLogo from "@/components/AppLogo";
-import Skills from "@/components/Skills";
-import SocialButtons from "@/components/SocialButtons";
-import AboutMeProfile from "@/components/AboutMeProfile";
+const Projects = lazy(() => import("@/components/ProjectCards"));
+const Skills = lazy(() => import("@/components/Skills"));
+const SocialButtons = lazy(() => import("@/components/SocialButtons"));
+const AboutMeProfile = lazy(() => import("@/components/AboutMeProfile"));
 import { data } from "@/data";
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
       <Header />
       <Section id="hero" className="py-14 2xl:py-40">
         <Container className="md:flex gap-x-24 md:flex-row-reverse">
-          <HeroImage src={ProfilePic1} />
+          <HeroImage />
           <div className="flex-1 max-w-xl text-center md:text-start">
             <HeroHeadline>
               Hello I'am <Bold extra>Verseler kerr. </Bold>

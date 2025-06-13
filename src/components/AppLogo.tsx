@@ -9,7 +9,7 @@ export default function AppLogo({ size = "sm" }: AppLogoProps) {
 
   return (
     <div className="flex items-center gap-x-2">
-      <img className={sizeStyle} src={MyLogo} />
+      <img className={sizeStyle} src={MyLogo} alt="app logo" />
       Verseler
     </div>
   );

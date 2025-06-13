@@ -1,4 +1,5 @@
 import { PropsWithChildren } from "react";
+import ProfilePic1 from "@/assets/images/profile-pic-1.webp";
 
 export function HeroHeadline({ children }: PropsWithChildren) {
   return (
@@ -16,17 +17,14 @@ export function HeroSubHeadline({ children }: PropsWithChildren) {
   );
 }
 
-type HeroImageProps = {
-  src: string;
-};
-
-export function HeroImage({ src }: HeroImageProps) {
+export function HeroImage() {
   return (
     <div className="grid flex-1 place-content-center">
       <img
         className="object-contain h-96 xl:h-[35rem]"
         alt="My profile picture"
-        src={src}
+        src={ProfilePic1}
+        loading="lazy"
       />
     </div>
   );

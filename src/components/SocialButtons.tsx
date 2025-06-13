@@ -9,13 +9,13 @@ type SocialButtonsProps = {
 
 export default function SocialButtons({ socials }: SocialButtonsProps) {
   return (
-    <div className="flex justify-center md:justify-start space-x-5 md:space-x-3.5 mt-10 md:mt-24">
+    <button className="flex justify-center md:justify-start space-x-5 md:space-x-3.5 mt-10 md:mt-24">
       {socials.map((social) => (
         <SocialButton url={social.url} key={social.id}>
           <social.Icon />
         </SocialButton>
       ))}
-    </div>
+    </button>
   );
 }
 

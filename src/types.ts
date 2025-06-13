@@ -23,4 +23,5 @@ export type Social = {
   id: number;
   Icon: IconType;
   url: string;
+  name: string;
 }
