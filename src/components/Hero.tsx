@@ -24,7 +24,6 @@ export function HeroImage() {
         className="object-contain h-96 xl:h-[35rem]"
         alt="My profile picture"
         src={ProfilePic1}
-        fetchpriority="high"
       />
     </div>
   );
