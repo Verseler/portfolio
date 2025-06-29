@@ -50,6 +50,13 @@ import OHRS16 from "@/assets/images/ohrs/ohrs-16.png";
 import OHRSCover from "@/assets/images/ohrs/ohrs-cover.jpg";
 import TermSimplified1 from "@/assets/images/term-simplified/term-simplified-1.png";
 import TermSimplified2 from "@/assets/images/term-simplified/term-simplified-2.png";
+import Elista1 from "@/assets/images/elista/elista-1.png";
+import Elista2 from "@/assets/images/elista/elista-2.png";
+import Elista3 from "@/assets/images/elista/elista-3.png";
+import Elista4 from "@/assets/images/elista/elista-4.png";
+import Elista5 from "@/assets/images/elista/elista-5.png";
+import Elista6 from "@/assets/images/elista/elista-6.png";
+import Elista7 from "@/assets/images/elista/elista-7.png";
 
 import { Project, Skill, Social } from "@/types";
 
@@ -82,7 +89,7 @@ export const data: TData = {
   ],
   projects: [
     {
-      id: 6,
+      id: 7,
       coverImage: TermSimplified1,
       title: "Terms-Simplified",
       type: "Personal Project",
@@ -97,6 +104,25 @@ export const data: TData = {
       demoLink: "https://terms-simplified.vercel.app",
       githubLink: "https://github.com/Verseler/terms-simplified",
       exampleImages: [TermSimplified1, TermSimplified2],
+    },
+    {
+      id: 6,
+      coverImage: Elista1,
+      title: "Elista",
+      type: "Personal Project",
+      date: "June 2025",
+      description: "Elista helps you manage your sari-sari store transactions with complete transparency. It creates a clear and complete record of all your loans and payments, so you can easily see what's been paid and what's still owed.",
+      technologies: [
+        "ReactJS",
+        "Typescript",
+        "TailwindCSS",
+        "Laravel",
+        "Rest API",
+        "Docker"
+      ],
+      demoLink: "https://elista.vercel.app/",
+      githubLink: "https://github.com/Verseler/elista-frontend",
+      exampleImages: [Elista1, Elista2, Elista3, Elista4, Elista5, Elista6, Elista7],
     },
     {
       id: 5,
