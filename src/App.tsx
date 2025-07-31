@@ -53,12 +53,12 @@ export default function App() {
               About <Bold>Me</Bold>
             </H1>
             <P dark>
-              I am Verseler Kerr Flores Handuman, a graduating IT student with a
-              passion for web development. I specialize in React/Laravel and
-              have been exploring ways to build clean, working, and responsive
-              web applications. My portfolio reflects my journey of learning and
-              creating, showcasing projects that highlight my growing skills and
-              dedication to improve as a developer.
+              I am Verseler Kerr Flores Handuman, a BS in Information Technology
+              graduate with a passion for web development. I specialize in React
+              and Laravel, focusing on building clean, functional, and
+              responsive web applications. My portfolio showcases the projects
+              I’ve built throughout my learning journey, reflecting my growing
+              skills and continuous dedication to becoming a better developer.
             </P>
             <P dark>
               When I'm not coding, I enjoy reading manhwa and manga, as well as
