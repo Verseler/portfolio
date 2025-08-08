@@ -77,7 +77,7 @@ export default function ProjectCard({
                 className="bg-green-600 hover:bg-green-700"
               >
                 <IoOpenOutline />
-                <span className="md:hidden lg:inline">Demo</span>
+                <span className="md:hidden lg:inline">Live</span>
               </Button>
             )}
             {githubLink && (
